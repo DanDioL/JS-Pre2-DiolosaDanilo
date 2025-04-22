@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: rgb(135, 86, 180);
+}
+
+header section div {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+#encabezado {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+}
+
+
+#imgcarrito {
+    max-width: 100px; 
+    height: auto; 
+}
+
+nav {
+    background-color: rgb(73, 73, 78);
+    box-shadow: 5px 5px 30px purple;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    color: #08030c;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+a {
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    margin: 10px;
+}
+
+
+.red {
+    width: 50px;
+    margin: 10px;
+}
+
+#titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+#encabezado {
+    background-color: #43298F;
+    
+}
+
+.productos,
+.carrito {
+    padding:1rem;
+}
+
+#contenedor-productos {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+}
+
+.producto {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    
+}    
+    
+
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(71, 71, 71);
+    box-shadow: 5px 5px 30px purple;
+    padding: 20px;
+    margin: 20px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15;
+}
+
+#derechos {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
